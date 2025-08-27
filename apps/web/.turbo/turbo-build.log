@@ -1,0 +1,234 @@
+
+> web@0.1.0 build /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/apps/web
+> next build
+
+   ▲ Next.js 14.0.0
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/15) ...
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Error occurred prerendering page "/cases". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (3/15) 
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (7/15) 
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (11/15) 
+Error: Event handlers cannot be passed to Client Component props.
+  {module: ..., onDemoClick: function, onLearnMore: ...}
+                             ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Event handlers cannot be passed to Client Component props.
+  {module: ..., onDemoClick: function, onLearnMore: ...}
+                             ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Error occurred prerendering page "/modules". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Event handlers cannot be passed to Client Component props.
+  {module: ..., onDemoClick: function, onLearnMore: ...}
+                             ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Error occurred prerendering page "/modules/core". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Error occurred prerendering page "/modules/interactie". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Error occurred prerendering page "/modules/garderobe". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Event handlers cannot be passed to Client Component props.
+  {className: ..., onClick: function, children: ...}
+                            ^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at /Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:24873
+    at Object.toJSON (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:25726)
+    at stringify (<anonymous>)
+    at eE (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14115)
+    at eR (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:14558)
+    at Timeout._onTimeout (/Users/bradleyinthout/Documents/augment-projects/SmartVisitor-website/node_modules/.pnpm/next@14.0.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:76:11338)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+ ✓ Generating static pages (15/15) 
+
+> Export encountered errors on following paths:
+	/cases/page: /cases
+	/modules/[slug]/page: /modules/core
+	/modules/[slug]/page: /modules/garderobe
+	/modules/[slug]/page: /modules/interactie
+	/modules/page: /modules
+ ELIFECYCLE  Command failed with exit code 1.

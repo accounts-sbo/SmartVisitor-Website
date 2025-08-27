@@ -1,0 +1,96 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Item {
+  id          String    @id @default(cuid())
+  type        String
+  name        String
+  unit        String?
+  priceCents  Int?
+  metadata    String?   // JSON as string for SQLite
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@map("items")
+}
+
+model Module {
+  id                     String   @id @default(cuid())
+  slug                   String   @unique
+  name                   String
+  summary                String
+  description            String?
+  priceCents             Int?
+  features               String   // JSON string for SQLite
+  inputs                 String   // JSON string for SQLite
+  outputs                String   // JSON string for SQLite
+  compatibleExperiences  String   // JSON string for SQLite
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+
+  @@map("modules")
+}
+
+model Package {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  name        String
+  items       String    // JSON string for SQLite
+  priceCents  Int?
+  description String?
+  features    String    // JSON string for SQLite
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@map("packages")
+}
+
+model FAQ {
+  id        String   @id @default(cuid())
+  question  String
+  answer    String
+  order     Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("faqs")
+}
+
+model Lead {
+  id         String    @id @default(cuid())
+  name       String
+  email      String
+  company    String?
+  phone      String?
+  eventDate  DateTime?
+  attendees  Int?
+  interest   String    // JSON string for SQLite
+  notes      String?
+  status     String    @default("new")
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  @@map("leads")
+}
+
+model Ticket {
+  id        String   @id @default(cuid())
+  email     String
+  subject   String
+  message   String
+  status    String   @default("new")
+  priority  String   @default("normal")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("tickets")
+}

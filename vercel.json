@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "apps/web/package.json",
+      "use": "@vercel/next",
+      "config": {
+        "projectSettings": {
+          "framework": "nextjs"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "apps/web/$1"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_API_BASE": "@smartvisitor-api-base",
+    "NEXT_PUBLIC_SUPPORT_BRAND": "SmartVisitor"
+  },
+  "functions": {
+    "apps/web/app/**/*.tsx": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
