@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SmartVisitor Website
 
 Een moderne, snelle marketing- en productsite voor SmartVisitor: een modulair, RFID-gedreven bezoekers-interactiesysteem.
@@ -190,3 +191,7 @@ Voor vragen over de implementatie:
 ## 📄 License
 
 Proprietary - SmartVisitor
+=======
+# SmartVisitor-Website
+Website SmartVisitor
+>>>>>>> 8e08cad0477e28f7df900f8f835ef245c7c72b88
