@@ -88,6 +88,15 @@
     box-shadow: 0 0 30px hsl(var(--electric-blue) / 0.5);
   }
 
+  .glow-effect-subtle {
+    box-shadow: 0 0 10px hsl(var(--electric-blue) / 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .glow-effect-subtle:hover {
+    box-shadow: 0 0 20px hsl(var(--electric-blue) / 0.4);
+  }
+
   .neon-glow {
     box-shadow: 0 0 20px hsl(var(--neon-orange) / 0.4);
   }

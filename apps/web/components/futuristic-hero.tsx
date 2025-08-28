@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import { Hero3D } from './hero-3d'
+
 import { ArrowRight, Play } from 'lucide-react'
 import Image from 'next/image'
 
@@ -26,8 +26,7 @@ export function FuturisticHero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark-bg">
-      {/* 3D Background */}
-      <Hero3D />
+
       
       {/* Animated Grid Background */}
       <div className="absolute inset-0 hero-grid opacity-20" />
@@ -35,28 +34,7 @@ export function FuturisticHero() {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-dark-bg/50 to-dark-bg" />
       
-      {/* Floating Particles */}
-      <div className="absolute inset-0">
-        {[...Array(50)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute w-1 h-1 bg-electric-blue rounded-full"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-            }}
-            animate={{
-              y: [0, -20, 0],
-              opacity: [0.3, 1, 0.3],
-            }}
-            transition={{
-              duration: 3 + Math.random() * 2,
-              repeat: Infinity,
-              delay: Math.random() * 2,
-            }}
-          />
-        ))}
-      </div>
+
 
       {/* Main Content */}
       <motion.div 
@@ -77,13 +55,13 @@ export function FuturisticHero() {
             transition={{ duration: 1.2, delay: 0.3 }}
             className="flex justify-center mb-4"
           >
-            <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 flex items-center justify-center">
+            <div className="w-80 h-80 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] xl:w-[32rem] xl:h-[32rem] flex items-center justify-center">
               <Image
                 src="/smartvisitor-logo.svg"
                 alt="SmartVisitor Logo"
-                width={384}
-                height={384}
-                className="w-full h-full object-contain filter brightness-0 invert opacity-95 hover:opacity-100 transition-opacity duration-500"
+                width={512}
+                height={512}
+                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                 priority
               />
             </div>
@@ -100,9 +78,9 @@ export function FuturisticHero() {
                 ease: "linear"
               }}
             >
-              Onzichtbare technologie,
+              Invisible technology,
             </motion.span>
-            <span className="text-white block mt-2">zichtbare resultaten</span>
+            <span className="text-white block mt-2">memorable experiences</span>
           </h1>
         </motion.div>
 
@@ -113,10 +91,10 @@ export function FuturisticHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.0 }}
         >
-          Wat als je gasten worden herkend nog vóór ze iets zeggen? Geen badges, geen scanning, geen techniek in het zicht—alleen een unieke, persoonlijke ervaring vanaf het eerste moment.
+          What if your guests are recognized before they even speak? No badges, no scanning, no visible technology—just a unique, personalized experience from the very first moment.
           <br />
           <span className="text-electric-blue font-semibold mt-4 block">
-            SmartVisitor brengt data tot leven, zonder dat je het voelt als data.
+            SmartVisitor brings data to life, without feeling like data.
           </span>
         </motion.p>
 
@@ -134,7 +112,7 @@ export function FuturisticHero() {
             onClick={() => window.location.href = '/demo'}
           >
             <span className="relative z-10 flex items-center">
-              Vraag demo aan
+              Request Demo
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-electric-blue opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -147,36 +125,12 @@ export function FuturisticHero() {
           >
             <span className="flex items-center">
               <Play className="mr-2 h-5 w-5" />
-              Bekijk demo
+              View Demo
             </span>
           </motion.button>
         </motion.div>
 
-        {/* Floating Data Visualization */}
-        <motion.div
-          className="relative"
-          style={{
-            transform: `translate(${mousePosition.x * 10}px, ${mousePosition.y * 10}px)`,
-          }}
-        >
-          <div className="flex justify-center space-x-8 opacity-60">
-            {['SmartTag', 'Trigger', 'Core', 'Reactor'].map((item, index) => (
-              <motion.div
-                key={item}
-                className="flex flex-col items-center"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.8 + index * 0.1 }}
-              >
-                <div className="w-3 h-3 bg-neon-orange rounded-full mb-2 animate-pulse" />
-                <span className="text-xs text-gray-400 font-space">{item}</span>
-                {index < 3 && (
-                  <div className="absolute top-1.5 left-full w-8 h-0.5 bg-gradient-to-r from-neon-orange to-transparent data-flow" />
-                )}
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+
 
         {/* Scroll Indicator */}
         <motion.div
